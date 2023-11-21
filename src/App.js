@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import StarRating from "./StarRating";
-import { hasFormSubmit } from "@testing-library/user-event/dist/utils";
 
 const average = (arr) =>
   arr.reduce((acc, cur, i, arr) => acc + cur / arr.length, 0);
